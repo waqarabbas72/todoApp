@@ -1,0 +1,68 @@
+*{
+    margin: 0 auto;
+}
+
+.root{
+    margin-top: 100px;
+    padding: 20px;
+    width: 20%;
+    height: 50vh;
+    background-color: rgb(92, 106, 106);
+    border-radius: 12px;
+    box-shadow: 5px 4px 30px 5px;
+}
+
+#myInput{
+    background-color: rgb(171, 171, 171);
+    width: 100%;
+    padding: 20px 0px;
+    font-size: 20px;
+    border-radius: 12px;
+}
+
+.btn{
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 6px;
+    background-color: rgb(16, 166, 21);
+    color: white;
+    font-size: 15px;
+}
+.btn:hover{
+    background-color: rgb(0, 131, 188);
+    transition: .5s;
+}
+.clear{
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 6px;
+    background-color: rgb(217, 9, 9);
+    color: white;
+    font-size: 15px;
+}
+
+.clear:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 4, 4);
+    transition: .5s;
+}
+
+.del-btn{
+    border: none;
+    background: transparent;
+    color: rgb(166, 77, 77);
+    font-weight: bold;
+    font-size: 18px;
+    /* margin-left: 100px; */
+}
+.del-btn:hover{
+    color: rgb(226, 0, 0);
+}
+
+/* li{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+} */
