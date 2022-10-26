@@ -1,8 +1,5 @@
-*{
-    margin: 0 auto;
-}
-
 .root{
+    margin: 0 auto;
     margin-top: 100px;
     padding: 20px;
     width: 20%;
@@ -33,6 +30,9 @@
     transition: .5s;
 }
 .clear{
+    position: fixed;
+    right: 760px;
+    bottom: 350px;
     padding: 10px 20px;
     margin-top: 10px;
     border-radius: 6px;
@@ -53,16 +53,16 @@
     color: rgb(166, 77, 77);
     font-weight: bold;
     font-size: 18px;
-    /* margin-left: 100px; */
 }
 .del-btn:hover{
     color: rgb(226, 0, 0);
 }
 
-/* li{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin: 0;
-    padding: 0;
-} */
+ul{
+    height: 30vh;
+    overflow-y: hidden;
+}
+
+ul:hover{
+   overflow-y:scroll;
+}

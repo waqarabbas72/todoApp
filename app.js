@@ -7,6 +7,8 @@ const todoApp = {
         if(input.value){
             list.push(input.value)
             input.value = ""
+        }else{
+            alert('please enter a valid task')
         }
         this.myFun()
     },
